@@ -65,7 +65,7 @@ const Home = () => {
                 </div>
                 <div className="sign-in">{texts[language].signIn}</div>
                 <div className="welcome-text">{texts[language].welcome}</div>
-                <a href="/login.html">
+                <a href="/pages">
                     <button className="button staff">{texts[language].staffLogin}</button>
                 </a>
                 <button className="button guest">{texts[language].guestLogin}</button>
