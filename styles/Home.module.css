@@ -1,0 +1,212 @@
+.container {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  margin-left: 500px;
+  margin-bottom: 50px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.header img {
+  height: 100px;
+}
+.header h2 {
+  margin: 5px 0;
+  font-weight: 500;
+  text-align: center;
+  flex: 1;
+}
+.header p {
+  color: #666;
+  font-size: 12px;
+  text-align: center;
+  flex: 1;
+}
+.language-selector {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  justify-content: flex-start;
+}
+.language-selector img {
+  width: 23px;
+  height: 15px;
+  margin-right: 5px;
+}
+.language-selector select {
+  border: none;
+  background: none;
+  font-size: 12px;
+  cursor: pointer;
+}
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  background-color: #F6F8FB;
+  border-radius: 5px;
+  padding: 5px;
+  height: 40px;
+}
+.tabs button {
+  background-color: transparent;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 12px;
+  color: #6c757d;
+}
+.tabs button.active {
+  background-color: #ffffff;
+  color: #000;
+  border: 1px solid #DFE3EB;
+}
+.form-group {
+  margin-bottom: 10px;
+  padding-right: 20px;
+}
+.form-group input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 12px;
+  height: 28px;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 12px;
+  color: #333;
+}
+.form-row {
+  display: flex;
+  justify-content: space-between;
+}
+.form-row .form-group {
+  flex: 1;
+}
+.form-row .form-group:last-child {
+  margin-right: 0;
+}
+.btn {
+  width: 100%;
+  padding: 5px;
+  background: #4676E8;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  height: 45px;
+}
+.footer {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 10px;
+  color: #666;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+}
+.footer p {
+  margin: 5px 0;
+  color: white;
+}
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  font-size: 13px;
+}
+.checkbox-container input {
+  margin-right: 10px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #ffffff;
+}
+.contact i {
+  margin-right: 5px;
+}
+
+
+/* Add this to your CSS file */
+.modal {
+  display: none; /* Hide the modal by default */
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+  height: 50%;
+}
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: -10px;
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.modal-body {
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+.day, .month, .year {
+  width: 110%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.day:hover, .month:hover, .year:hover {
+  border-color: #aaa;
+}
+
+.day:focus, .month:focus, .year:focus {
+  border-color: #666;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+} 
